@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'Logo-BackEnd'
+
+include 'Logo-api'
+include 'Logo-core'
+include 'Logo-infra'
+include 'Logo-core:domain'
+include 'Logo-core:application'
+include 'Logo-infra:infra-commons'
+include 'Logo-infra:infra-aws'
+include 'Logo-infra:persistence'
+include 'Logo-infra:persistence:persistence-commons'
